@@ -1,0 +1,69 @@
+* {
+    word-spacing: 1.5px;
+    letter-spacing: 0.8px;
+    /* border: 1px black solid; */
+    position: relative;
+ 
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family:  Georgia, Arial, Helvetica;
+    text-align: justify; 
+    margin-left: 0px;
+    
+}
+
+img {
+    width: 800px;
+}
+
+dl {
+    margin-left: 40px;
+}
+
+p, a, dl { 
+    font-family: Tahoma;
+    text-align: justify;
+}
+
+img {
+    height: 370px;
+    width: 800px;
+    top: 40px;
+    left: 200px;
+    /* Adjust if needed */
+
+}
+
+.intro {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.intro p {
+    width: 90%;
+    font-size: 19px;
+}
+
+.maincontent {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.maincontent p,dl {
+    width: 80%;
+    font-size: 19px;
+
+}
+
+.overlap {
+    margin-top: 120px;
+}
+
+.community {
+    margin-top: 230px;
+}

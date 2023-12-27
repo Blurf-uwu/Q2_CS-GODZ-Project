@@ -1,0 +1,5 @@
+PHOTO FILENAME TEMPLATE
+Page#_Photo#
+
+ex: 
+Page2_Photo3.sumthing
