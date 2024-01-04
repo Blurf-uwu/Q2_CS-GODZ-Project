@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+    position: relative;
+}
+
+body{
+    align-content: justify;
+    margin: 0.5in auto;
+    width: 1200px;
+    border: 0px solid black;
+    padding: 5px;
+}
+
+.contributors{
+    overflow: auto;
+}
+
+.contributor2{
+    text-align: right;
+}
+
+#right{
+    padding-left: 20px;
+    float: right;
+}
+
+.left{
+    padding-right: 20px;
+    float: left;
+}
+
+img {
+    width: auto;
+    height: 150px;
+}
