@@ -10,9 +10,9 @@
 .content {
     border: 1px solid black;
     display: flex;
+    width: 100vw;
     position: relative;
     justify-self: center;
-    left: -0.6vw;
 }
 
 .left, .right {
