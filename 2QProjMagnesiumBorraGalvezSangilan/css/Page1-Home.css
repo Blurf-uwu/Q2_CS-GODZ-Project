@@ -66,12 +66,16 @@ a {
 
 .charity1box, .charity2box {
     display: flex;
-    background-image: url(https://1000logos.net/wp-content/uploads/2021/03/Oxfam-logo-500x311.png);
     background-size: cover;
+    background-color: white;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: end;
 }
+
+.charity1box {background-image: url(https://1000logos.net/wp-content/uploads/2021/03/Oxfam-logo-500x311.png); }
+.charity2box {background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRDhn-TmvJMfJxbRc7edNnX6izjdMEzCQ6bxoVbSaqhg&s); }
+
 .charity1link, .charity2link {
     display: flex;
     align-items: center;
