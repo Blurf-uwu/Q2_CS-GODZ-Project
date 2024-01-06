@@ -1,0 +1,46 @@
+.heading {
+    display: flex;
+    width: 100vw;
+    justify-self: center;
+    justify-content: center;
+
+}
+
+.content {
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    justify-self: center;
+    left: -0.6vw;
+}
+
+.left, .right {
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 50vw;
+    height: fit-content;
+}
+
+.grid {
+    border: 1px solid black;
+    display: grid;
+    width: 50vw;
+    grid-template-areas: 
+        "1 2"
+        "3 4"
+        "5 6";
+
+}
+
+.grid-item {
+    display: flex;
+    width: 25vw;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}

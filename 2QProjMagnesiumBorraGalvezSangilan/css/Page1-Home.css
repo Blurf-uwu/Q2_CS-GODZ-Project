@@ -1,4 +1,15 @@
 /* ELEMENTS */
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family:  Georgia, Arial, Helvetica;
+}
+
+p, a { 
+    font-family: Tahoma;
+}
 
 h1 {
     text-align: center;
@@ -28,7 +39,6 @@ a {
     height: fit-content;
     border: 1px solid black;
     left: -0.6vw;
-    margin-top: 13vh; /* so that the container doesn't overlap with the navbar */
 }
 .container1 p {
     width: 80vw;

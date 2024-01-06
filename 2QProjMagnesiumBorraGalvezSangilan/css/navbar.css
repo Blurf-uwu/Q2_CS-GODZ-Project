@@ -1,0 +1,106 @@
+/* UNIVERSAL */
+
+* {
+    word-spacing: 1.5px;
+    letter-spacing: 0.8px;
+ 
+}
+
+/* ELEMENTS */
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family:  Georgia, Arial, Helvetica;
+}
+
+p, a { 
+    font-family: Tahoma;
+}
+
+nav h1 {
+    position: fixed;
+    font-family:  Georgia, Arial, Helvetica;
+    text-align: justify; 
+    margin-left: 0px;
+}
+
+/* CLASSES */
+
+.lettuce-logo { 
+    width: 37.5px;
+    aspect-ratio: 1;
+    position: relative;
+    left: 2vw;
+}
+
+.teaml {
+    top: -1.25vw;
+    left: 80px;
+}
+
+nav img {
+    width: 10px;
+}
+
+.linc {
+    top: -1.25vw;
+    right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    float: left;
+}
+
+nav li {
+    float: left;
+    margin-right: 30px;
+    color: aliceblue;
+}
+
+nav {
+    position: fixed;
+    z-index: 100;
+}
+
+.nav1 {
+    left: 0;
+    top: 0; 
+    background-color: darkolivegreen;
+    width: 100vw;
+    height: 12.5vh;
+}
+
+.nav2 {
+    left: 0;
+    top: 40px;
+    background-color: black;
+    width: 100vw;
+    z-index: 101;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+.invisible {
+    height: 10vh;
+    width: 100wv;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+nav a:visited {
+    color: darkgray;
+
+}
