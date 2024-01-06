@@ -1,0 +1,66 @@
+
+.container1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 100vw;
+    height: fit-content;
+    border: 1px solid black;
+    left: -0.6vw;
+    margin-top: 13vh; /* so that the container doesn't overlap with the navbar */
+}
+.container1 p {
+    width: 80vw;
+    font-size: large;
+}
+
+.container2 {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-self: center;
+    width: 100vw;
+    height: fit-content;
+    border: 1px solid black;
+    left: -0.6vw;
+}
+
+h1 {
+    text-align: center;
+    /* to make sure all the titles are centered */
+}
+
+.charity1box, .charity2box {
+    height: 30vh;
+    width: 30vw;
+    border: 1px solid black;
+}
+
+.charity1box, .charity2box {
+    display: flex;
+    background-image: url(https://1000logos.net/wp-content/uploads/2021/03/Oxfam-logo-500x311.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: end;
+}
+.charity1link, .charity2link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 9vw;
+    height: 6vh;
+    font-size: large;
+    color: white;
+    background-color: gray;
+    margin-bottom: 1vh;
+}
+
+a {
+    text-decoration: none;
+}
