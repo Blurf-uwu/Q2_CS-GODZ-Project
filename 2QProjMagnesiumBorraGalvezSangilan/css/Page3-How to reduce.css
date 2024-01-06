@@ -1,3 +1,4 @@
+/* ELEMENTS */
 
 body {
     background-color: bisque;
@@ -27,6 +28,8 @@ main img {
     /* Adjust if needed */
 
 }
+
+/* CLASSES */
 
 .intro {
     margin-top: 70px;

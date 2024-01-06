@@ -27,27 +27,8 @@ nav h1 {
     margin-left: 0px;
 }
 
-/* CLASSES */
-
-.lettuce-logo { 
-    width: 37.5px;
-    aspect-ratio: 1;
-    position: relative;
-    left: 2vw;
-}
-
-.teaml {
-    top: -1.25vw;
-    left: 80px;
-}
-
 nav img {
     width: 10px;
-}
-
-.linc {
-    top: -1.25vw;
-    right: 10px;
 }
 
 nav ul {
@@ -65,6 +46,39 @@ nav li {
 nav {
     position: fixed;
     z-index: 100;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+nav a:visited {
+    color: darkgray;
+
+}
+
+/* CLASSES */
+
+.lettuce-logo { 
+    width: 37.5px;
+    aspect-ratio: 1;
+    position: relative;
+    left: 2vw;
+}
+
+.teaml {
+    top: -1.25vw;
+    left: 80px;
+}
+
+
+.linc {
+    top: -1.25vw;
+    right: 10px;
 }
 
 .nav1 {
@@ -90,17 +104,4 @@ nav {
 .invisible {
     height: 10vh;
     width: 100wv;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: overline;
-}
-
-nav a:visited {
-    color: darkgray;
-
 }
