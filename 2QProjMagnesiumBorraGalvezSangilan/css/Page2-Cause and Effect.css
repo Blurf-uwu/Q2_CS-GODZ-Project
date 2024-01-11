@@ -1,6 +1,8 @@
 /* CLASSES */
 
 .heading {
+    position: relative;
+    top: 10px;
     display: flex;
     width: 100vw;
     justify-self: center;

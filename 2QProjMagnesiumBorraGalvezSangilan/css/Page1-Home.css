@@ -1,6 +1,6 @@
 /* ELEMENTS */
 body {
-    background-color: bisque;
+    color: darkgreen;
 }
 
 h1 {
@@ -37,10 +37,18 @@ a {
     justify-self: center;
     width: 100vw;
     height: fit-content;
-    border: 1px solid black;
+    border: 0px solid darkgreen;
     left: -0.6vw;
 }
+
+.container1 h1{
+    position: relative;
+    bottom: 5px; 
+}
+
 .container1 p {
+    position: relative;
+    bottom: 30px;
     width: 80vw;
     font-size: large;
 }
@@ -53,7 +61,7 @@ a {
     justify-self: center;
     width: 100vw;
     height: fit-content;
-    border: 1px solid black;
+    border: 1px solid darkgreen;
     left: -0.6vw;
     padding-bottom: 5vh;
 }
@@ -61,7 +69,7 @@ a {
 .charity1box, .charity2box {
     height: 30vh;
     width: 30vw;
-    border: 1px solid black;
+    border: 1px solid rgb(29, 80, 24);
 }
 
 .charity1box, .charity2box {
@@ -85,7 +93,7 @@ a {
     height: 6vh;
     font-size: large;
     color: white;
-    background-color: gray;
+    background-color: rgba(87, 136, 98, 0.849);
     margin-bottom: 1vh;
 }
 
@@ -98,7 +106,7 @@ a {
     justify-self: center;
     width: 100vw;
     height: fit-content;
-    border: 1px solid black;
+    border: 1px solid darkgreen;
     left: -0.6vw;
 }
 
@@ -111,7 +119,7 @@ a {
 
 .left-top-left, .left-top-right, .left-bottom-left, .left-bottom-right, .right-left, .right-right {
     width: 50cqw;
-    border: 1px solid black;
+    border: 1px solid darkgreen;
 }
 
 .right {
@@ -121,7 +129,7 @@ a {
 }
 
 .left-top-left, .left-bottom-left, .right-right {
-    background-color: darkgrey;
+    background-color: rgb(142, 192, 142);
 }
 
 .left-bottom-right, .left-top-right, .right-left {
@@ -131,5 +139,19 @@ a {
     justify-content: center;
     align-items: center;
     justify-self: center;
+}
 
+.video{
+    position: relative;
+    top: 10px;
+    margin: 10px 0px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-page{
+    position: relative;
+    top: 20px;
 }

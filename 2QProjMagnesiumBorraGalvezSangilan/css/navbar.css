@@ -9,21 +9,24 @@
 /* ELEMENTS */
 
 body {
-    background-color: bisque;
+    background-color: rgb(202, 235, 195);
+    font-family: sans-serif;
 }
 
 h1 {
-    font-family:  Georgia, Arial, Helvetica;
+    font-family: sans-serif;
 }
 
 p, a { 
-    font-family: Tahoma;
+    font-family: sans-serif;
 }
 
 nav h1 {
-    position: fixed;
-    font-family:  Georgia, Arial, Helvetica;
+    color: rgba(255, 255, 255, 0.863);
+    position: fixed;    
+    font-family: sans-serif;
     text-align: justify; 
+    margin-top: 25px;
     margin-left: 0px;
 }
 
@@ -40,7 +43,6 @@ nav ul {
 nav li {
     float: left;
     margin-right: 30px;
-    color: aliceblue;
 }
 
 nav {
@@ -53,11 +55,12 @@ nav a {
 }
 
 a:hover {
-    text-decoration: overline;
+    text-decoration-thickness:unset;
 }
 
 nav a:visited {
-    color: darkgray;
+    font-weight: bold;
+    color: white;
 
 }
 
@@ -84,7 +87,7 @@ nav a:visited {
 .nav1 {
     left: 0;
     top: 0; 
-    background-color: darkolivegreen;
+    background-color: rgb(52, 110, 52);
     width: 100vw;
     height: 12.5vh;
 }
@@ -92,13 +95,15 @@ nav a:visited {
 .nav2 {
     left: 0;
     top: 40px;
-    background-color: black;
+    background-color:rgb(70, 129, 70);
     width: 100vw;
     z-index: 101;
 }
 
 .current-page {
     text-decoration: underline;
+    text-decoration-thickness: 2px ;
+    text-decoration-color: white;
 }
 
 .invisible {

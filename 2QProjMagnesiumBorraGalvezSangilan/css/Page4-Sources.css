@@ -11,7 +11,9 @@ section h1 {
 }
 
 section p, section li { 
-    font-family: Tahoma;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: auto;
     margin-top: 30px;
     margin-left: 120px;
     margin-bottom: 50px;

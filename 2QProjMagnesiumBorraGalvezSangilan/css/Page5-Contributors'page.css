@@ -1,11 +1,15 @@
 /* UNIVERSAL */
 
 *{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 
 /* ELEMENTS */
+
+header{
+    color: darkgreen;
+}
 
 main{
     align-content: justify;
@@ -23,6 +27,9 @@ section img {
 /* CLASSES */
 
 .contributors{
+    color: darkgreen;
+    font-weight: 30;
+    font-size: 15px;
     overflow: auto;
     text-align: justify;
 }

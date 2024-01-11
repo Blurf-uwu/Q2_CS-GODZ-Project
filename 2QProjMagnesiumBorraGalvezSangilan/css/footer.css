@@ -1,18 +1,13 @@
 footer{
-    background-color: green;
+    font-family: sans-serif;
+    background-color: rgb(86, 155, 86);
     width: 100vw;
     position: fixed;
     justify-content: space-between;
-    font-size: small;
+    font-size: 11px;
     padding: 0.01px;
     bottom: 0;
     left: 0;
-}
-
-img{
-    width: 30px;
-    height: auto;
-
 }
 
 footer ul li{
@@ -22,16 +17,58 @@ footer ul li{
 
 #text{
     position: relative;
-    bottom: 10px;
+    bottom: 5px;
     color: white;
 }
 
 
-footer a{
+.name a{
     position: relative;
-    bottom: 10px;
+    bottom: 5px;
     text-decoration: none;
     color: white;
 }
 
+.name a:hover{
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.459);
+}
+
+#fb{
+    background: url('../images/footer.png') no-repeat -499px -515px;
+	width: 22px;
+	height: 21px;
+}
+
+#fb:hover{
+    background: url('../images/footer.png') no-repeat -499px -543px;
+	width: 22px;
+	height: 21px;
+}
+
+#ig{
+    background: url('../images/footer.png') no-repeat -531px -516px;
+	width: 20px;
+	height: 20px;
+}
+
+#ig:hover{
+    background: url('../images/footer.png') no-repeat -531px -544px;
+	width: 20px;
+	height: 20px;
+}
+
+#X{
+    background: url('../images/footer.png') no-repeat -561px -543px;
+	width: 20px;
+	height: 21px;
+}
+
+#X:hover{
+    background: url('../images/footer.png') no-repeat -561px -516px;
+	width: 20px;
+	height: 21px;
+}
 
