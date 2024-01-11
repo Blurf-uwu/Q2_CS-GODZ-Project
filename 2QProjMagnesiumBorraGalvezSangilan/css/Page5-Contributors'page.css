@@ -17,13 +17,14 @@ main{
 
 section img {
     width: auto;
-    height: 150px;
+    height: 250px;
 }
 
 /* CLASSES */
 
 .contributors{
     overflow: auto;
+    text-align: justify;
 }
 
 .contributor2{
