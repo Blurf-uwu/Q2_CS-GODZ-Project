@@ -70,9 +70,6 @@ a {
     height: 30vh;
     width: 30vw;
     border: 1px solid rgb(29, 80, 24);
-}
-
-.charity1box, .charity2box {
     display: flex;
     background-size: cover;
     background-color: white;
@@ -86,7 +83,11 @@ a {
     background-size: contain;
     background-position-x: center;
 }
-.charity2box {background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRDhn-TmvJMfJxbRc7edNnX6izjdMEzCQ6bxoVbSaqhg&s);   }
+.charity2box {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRDhn-TmvJMfJxbRc7edNnX6izjdMEzCQ6bxoVbSaqhg&s);   
+    background-size: contain;
+    background-position-x: center;
+}
 
 .charity1link, .charity2link {
     display: flex;
