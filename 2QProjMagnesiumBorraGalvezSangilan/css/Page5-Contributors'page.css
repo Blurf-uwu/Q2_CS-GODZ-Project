@@ -2,7 +2,6 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
 }
 
 /* ELEMENTS */
@@ -11,39 +10,43 @@ header{
     color: darkgreen;
 }
 
-main{
-    align-content: justify;
-    margin: 0.5in auto;
-    width: 1200px;
-    border: 0px solid black;
-    padding: 5px;
-}
-
-section img {
-    width: auto;
-    height: 250px;
+header h1 {
+    width: 100vw;
+    text-align: center;
 }
 
 /* CLASSES */
 
-.contributors{
-    color: darkgreen;
-    font-weight: 30;
-    font-size: 15px;
-    overflow: auto;
-    text-align: justify;
+.content {
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    flex-direction: column;
 }
 
-.contributor2{
-    text-align: right;
+div img {
+    width: 50vh;
 }
 
-.right{
-    padding-left: 20px;
-    float: right;
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    font-size: 1em;
 }
 
-.left{
-    padding-right: 20px;
-    float: left;
+div p {
+    width: 80%;
+}
+
+/* IDs */
+
+#Zy, #Sal, #JM {
+    display: flex;
+    width: 80vw;
+    height: fit-content;
+    align-self: center;
+    justify-self: center;
+
 }

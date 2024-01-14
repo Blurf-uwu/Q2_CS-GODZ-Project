@@ -24,9 +24,3 @@ section p, section li {
 li {
     list-style-type: none;
 }
-
-img {
-    width: 300px;
-    /* Adjust if needed */
-
-}
