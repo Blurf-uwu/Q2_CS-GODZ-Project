@@ -71,7 +71,6 @@ a {
     width: 30vw;
     border: 1px solid rgb(29, 80, 24);
     display: flex;
-    background-size: cover;
     background-color: white;
     background-repeat: no-repeat;
     justify-content: center;
