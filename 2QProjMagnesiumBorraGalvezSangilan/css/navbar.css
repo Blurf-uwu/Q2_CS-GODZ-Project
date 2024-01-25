@@ -34,8 +34,6 @@ nav img {
 }
 
 nav ul {
-    font-family: sans-serif;
-    font-weight: bold;
     list-style-type: none;
     margin-bottom: 10px;
     float: left;
@@ -88,8 +86,9 @@ nav a:visited {
 .teaml {
     top: -1.25vw;
     left: 80px;
-}
+    animation: teaml 3s infinite;
 
+}
 
 .linc {
     top: -1.25vw;
@@ -116,9 +115,28 @@ nav a:visited {
     text-decoration: underline;
     text-decoration-thickness: 2px ;
     text-decoration-color: white;
+    animation-name: current-page;
+    animation-duration: 3s;
+    animation-timing-function: infinite;
 }
 
 .invisible {
     height: 10vh;
     width: 100wv;
+}
+
+@keyframes teaml {
+    0% {color: mediumspringgreen;}
+    25% {color: red;}
+    50% {color: blue;}
+    75% {color: yellow;}
+    100% {color: orange;}
+}
+
+@keyframes current-page {
+    0% {color: mediumspringgreen;}
+    25% {color: red;}
+    50% {color: blue;}
+    75% {color: yellow;}
+    100% {color: orange;}
 }
