@@ -5,6 +5,8 @@ body {
 }
 
 section h1 {
+    font-size: 36px;
+    color: darkgreen;
     font-family:  Georgia, Arial, Helvetica;
     margin-top: 50px;
     margin-left: 100px;

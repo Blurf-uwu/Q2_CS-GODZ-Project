@@ -156,6 +156,8 @@ a {
 }
 
 .title-page{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     top: 20px;
 }

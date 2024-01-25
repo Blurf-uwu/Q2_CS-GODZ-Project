@@ -4,13 +4,6 @@ body {
     color: darkgreen;
 }
 
-h1 {
-    font-family:  Georgia, Arial, Helvetica;
-    text-align: justify; 
-    margin-left: 0px;
-    
-}
-
 dl {
     margin-left: 40px;
 }
@@ -28,10 +21,14 @@ main img {
 
 }
 
+header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* CLASSES */
 
 .intro {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 100px;
 }
 
