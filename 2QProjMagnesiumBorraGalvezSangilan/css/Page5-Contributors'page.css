@@ -19,7 +19,7 @@ header h1 {
 }
 
 img{
-    width: 45vh;
+    width: 20vw;
     border: solid 1px rgb(202, 235, 195);
     border-radius: 20px;
 }
@@ -36,8 +36,12 @@ footer{
 
 /* CLASSES */
 
+.Contributors {
+    display: flex;
+}
+
 .content {
-    width: 900px;
+    width: 70vw;
     height: 975px;    
     align-content: center;
     margin: 0px auto;
@@ -78,7 +82,7 @@ footer{
 /* ID */
 
 #text1, #text2, #text3 {
-    width: 95vh;
+    width: 40vw;
     color: aliceblue;
     border: 1px solid rgb(202, 235, 195);
     border-radius: 20px;
