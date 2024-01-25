@@ -24,7 +24,8 @@ main img {
     width: 50vw;
     top: 40px;
     left: 200px;
-    /* Adjust if needed */
+    transform: translateX(30%);
+    margin-top: 30px;
 
 }
 
