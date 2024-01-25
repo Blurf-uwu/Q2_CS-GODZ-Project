@@ -60,7 +60,18 @@ a:hover {
 nav a:visited {
     font-weight: bold;
     color: white;
-   
+    animation-name: visitedcolor;
+    animation-duration: 3s;
+    animation-timing-function: infinite;
+}
+
+
+@keyframes visitiedcolor {
+    0% {color: mediumspringgreen;}
+    25% {color: red;}
+    50% {color: blue;}
+    75% {color: yellow;}
+    100% {color: orange;}
 }
 
 /* CLASSES */
