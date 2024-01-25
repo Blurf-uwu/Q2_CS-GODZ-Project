@@ -3,12 +3,12 @@ li {
     color: darkgreen;
 }
 
-
-
-
 /* CLASSES */
 
 .heading {
+    font-size: 15px;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     top: 10px;
     display: flex;
@@ -18,7 +18,7 @@ li {
 }
 
 .content {
-    border: 1px solid black;
+    border: 1px solid rgb(202, 235, 195);
     display: flex;
     width: 100vw;
     position: relative;
