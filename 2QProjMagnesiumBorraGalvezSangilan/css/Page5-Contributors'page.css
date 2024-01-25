@@ -20,7 +20,7 @@ header h1 {
 
 img{
     width: 45vh;
-    border: solid 1px black;
+    border: solid 1px rgb(202, 235, 195);
     border-radius: 20px;
 }
 
@@ -38,9 +38,9 @@ footer{
 
 .content {
     width: 900px;
+    height: 975px;    
     align-content: center;
     margin: 0px auto;
-    height: fit-content;
     align-self: center;
     justify-self: center;
     flex-direction: column;
@@ -80,7 +80,7 @@ footer{
 #text1, #text2, #text3 {
     width: 95vh;
     color: aliceblue;
-    border: 1px solid wheat;
+    border: 1px solid rgb(202, 235, 195);
     border-radius: 20px;
     background-color: rgb(58, 121, 58);
     padding: 25px;

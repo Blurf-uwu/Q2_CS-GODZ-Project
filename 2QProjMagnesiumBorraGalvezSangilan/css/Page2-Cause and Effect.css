@@ -3,9 +3,6 @@ li {
     color: darkgreen;
 }
 
-
-
-
 /* CLASSES */
 
 .heading {
@@ -21,7 +18,7 @@ li {
 }
 
 .content {
-    border: 1px solid black;
+    border: 1px solid rgb(202, 235, 195);
     display: flex;
     width: 100vw;
     position: relative;
