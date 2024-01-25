@@ -99,6 +99,13 @@ a {
     color: white;
     background-color: rgba(87, 136, 98, 0.849);
     margin-bottom: 1vh;
+    animation: donate infinite 2s;
+}
+
+@keyframes donate {
+    50% {
+        transform: scale(1.2);
+    }
 }
 
 
